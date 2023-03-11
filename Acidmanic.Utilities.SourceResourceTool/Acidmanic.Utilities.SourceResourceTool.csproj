@@ -1,12 +1,37 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="CoreCommandLine" Version="1.0.6" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="CoreCommandLine" Version="1.0.6"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../Graphics/Logo.png">
+            <Pack>true</Pack>
+            <PackagePath>Graphics/Logo.png</PackagePath>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="../LICENSE.txt">
+            <Pack>true</Pack>
+            <PackagePath>LICENSE.txt</PackagePath>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <!-- Dotnet Tool Specific settings -->
+    <PropertyGroup>
+        <Version>1.0.0-b01</Version>
+        <PackAsTool>true</PackAsTool>
+        <PackageId>SourceResource.Tool</PackageId>
+        <ToolCommandName>srt</ToolCommandName>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageIcon>Graphics/Logo.png</PackageIcon>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    </PropertyGroup>
 
 </Project>

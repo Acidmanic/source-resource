@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{F41C4994-F499-4815-AD9C-F703D8088AED}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		Readme.md = Readme.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acidmanic.Utilities.SourceResourceTool", "Acidmanic.Utilities.SourceResourceTool\Acidmanic.Utilities.SourceResourceTool.csproj", "{B04B4C8F-3C68-4CB2-91D0-B09C380E555F}"

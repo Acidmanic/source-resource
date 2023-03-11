@@ -6,7 +6,7 @@ namespace Acidmanic.Utilities.SourceResourceTool
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
