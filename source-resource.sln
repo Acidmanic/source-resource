@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{F41C4994-F
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acidmanic.Utilities.SourceResourceTool", "Acidmanic.Utilities.SourceResourceTool\Acidmanic.Utilities.SourceResourceTool.csproj", "{B04B4C8F-3C68-4CB2-91D0-B09C380E555F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,5 +31,9 @@ Global
 		{1A252BCA-FB95-4A8D-9DB2-99C47953C622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A252BCA-FB95-4A8D-9DB2-99C47953C622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A252BCA-FB95-4A8D-9DB2-99C47953C622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04B4C8F-3C68-4CB2-91D0-B09C380E555F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04B4C8F-3C68-4CB2-91D0-B09C380E555F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04B4C8F-3C68-4CB2-91D0-B09C380E555F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04B4C8F-3C68-4CB2-91D0-B09C380E555F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
