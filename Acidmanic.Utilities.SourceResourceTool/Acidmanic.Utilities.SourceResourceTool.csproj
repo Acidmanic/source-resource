@@ -6,7 +6,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="CoreCommandLine" Version="1.0.6"/>
+        <PackageReference Include="Acidmanic.Utilities" Version="1.0.6" />
+        <PackageReference Include="CoreCommandLine" Version="1.0.6" />
     </ItemGroup>
 
     <ItemGroup>
@@ -20,6 +21,10 @@
             <PackagePath>LICENSE.txt</PackagePath>
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Acidmanic.Utilities.SourceResource\Acidmanic.Utilities.SourceResource.csproj" />
     </ItemGroup>
     <!-- Dotnet Tool Specific settings -->
     <PropertyGroup>

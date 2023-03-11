@@ -10,14 +10,6 @@ namespace SourceResource.Tdd
         {
             var builder = new SourceDataBuilder();
             
-
-            var className = "FilesResource";
-            
-            var csFileName = new DirectoryInfo("../../..").FullName + $"/{className}.cs";
-            
-            builder.CreateFile(csFileName, "Files",className);
-            
-            
             builder.ExtractIntoDirectory("Miles",Assembly.GetEntryAssembly());
         }
     }
